@@ -2,10 +2,7 @@
  
  <% 
  
- //System.out.println(ClassLoader.getSystemResource("eopscommon.properties"));
- 
- //System.out.println(getClass().getClassLoader().getResource("eopspersistenceds.jar"));
- ResourceBundle resource = ResourceBundle.getBundle("eopscommon");
+ ResourceBundle resource = ResourceBundle.getBundle("appscommon");
 
  String ldap=resource.getString("ldap");
   String ctryCode=resource.getString("ctryCode");
